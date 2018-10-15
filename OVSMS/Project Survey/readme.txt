@@ -1,0 +1,1 @@
+This folder contains all the survey questions and Questions that are asked amoung general publics

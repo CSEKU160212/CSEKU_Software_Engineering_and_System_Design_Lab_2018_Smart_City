@@ -1,0 +1,1 @@
+For the betterment of our project, we went to the general publics of Khulna city. We explained our software features and asked them what features they want to add to improve the software quality
