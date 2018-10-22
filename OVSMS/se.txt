@@ -1,0 +1,1 @@
+Online Vehicle Seeker Management system is a project which enables the user to find nearby drivers for short and long trips 
