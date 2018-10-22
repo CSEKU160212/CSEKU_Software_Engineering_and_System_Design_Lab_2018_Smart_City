@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Community Center Status Update</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="index.html">Community Center Status Update</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="list.html">Community Center List</a></li>
+            <li><a href="add.html">Add Community Center</a></li> 
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="text-center">Search Option</h1>
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+            <form action="" method="POST">
+              <div class="form-group">
+                <label for="division">Division: </label>
+                <select name="division" class="form-control">
+                  <option>Please Select Division</option>
+                  <option value="">Dhaka</option>
+                  <option value="">Chittagong</option>
+                  <option value="">Khulna</option>
+                  <option value="">Syhlet</option>
+                  <option value="">Rajshahi</option>
+                  <option value="">Barisal</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="division">Area: </label>
+                <select name="division" class="form-control">
+                  <option>Please Select Area</option>
+                  <option value="">Dhaka</option>
+                  <option value="">Chittagong</option>
+                  <option value="">Khulna</option>
+                  <option value="">Syhlet</option>
+                  <option value="">Rajshahi</option>
+                  <option value="">Barisal</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="division">Community Center: </label>
+                <select name="division" class="form-control">
+                  <option>Please Select Community Center</option>
+                  <option value="">Dhaka</option>
+                  <option value="">Chittagong</option>
+                  <option value="">Khulna</option>
+                  <option value="">Syhlet</option>
+                  <option value="">Rajshahi</option>
+                  <option value="">Barisal</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button type="submit" name="submit" class="btn btn-info">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-5">
+                <h3>Community Center Name:</h3>
+              </div>
+              <div class="col-md-7">Talukdar Community Center</div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <h3>Community Center Image:</h3>
+              </div>
+              <div class="col-md-7">
+                <img src="img/community_center.jpg" alt="Community Center Image" class="img-thumbnail">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <h3>Community Center Details:</h3>
+              </div>
+              <div class="col-md-7">
+                <ul>
+                  <li>Lorem ipsum dolor sit ammet.</li>
+                  <li>Lorem ipsum dolor sit ammet.</li>
+                  <li>Lorem ipsum dolor sit ammet.</li>
+                  <li>Lorem ipsum dolor sit ammet.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5">
+                <h3>Review:</h3>
+              </div>
+              <div class="col-md-7">
+                <form action="" method="POST">
+                  <div class="form-group">
+                    <textarea name="review" placeholder="Review" class="form-control"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" name="submit" class="btn btn-success">Send</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

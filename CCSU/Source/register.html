@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Community Center Status Update</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="index.html">Community Center Status Update</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="list.html">Community Center List</a></li>
+            <li><a href="add.html">Add Community Center</a></li> 
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div style="margin-top: 80px;"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-2 col-md-7">
+          <div class="jumbotron">
+            <h1>Register</h1>
+            <hr>
+            <form method="post" action="">
+              <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name" placeholder="Name" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="adress">Address: </label>
+                <input type="text" name="address" placeholder="Address" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="city">City: </label>
+                <input type="text" name="city" placeholder="City" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="username">Username: </label>
+                <input type="text" name="username" placeholder="Username" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="password">Password: </label>
+                <input type="password" name="password" placeholder="Password" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="confirmPassword">Confirm Password: </label>
+                <input type="password" name="confirmPassword" placeholder="Confirm Password" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone: </label>
+                <input type="text" name="phone" placeholder="Phone" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email">Email: </label>
+                <input type="email" name="email" placeholder="Email" value="" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="submit" name="register" value="register" class="btn btn-primary btn-lg">
+              </div>
+            </form>
+            <p>
+              Already registered?
+              <a href="login.html" class="btn btn-info btn-lg">login</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
