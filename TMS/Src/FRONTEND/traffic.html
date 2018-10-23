@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Traffic Monitoring System</title>
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet">
+  </head>
+  <body>    
+    <div class="b2">
+      <div class="container-fluid" id="login-wrapper">
+        <h3 class="text-center">Traffic Info</h3>
+        <div class="row">
+          <div class="col-sm-offset-4 col-sm-4">
+            <form action="" method="POST">
+              <div class="form-group">
+                <input type="text" name="traf_name" value="" placeholder="Traffic Name" class="form-control">
+              </div>
+              <div class="form-group">
+                <textarea name="traf_desc" placeholder="Traffic Description" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="date" name="traf_time" value="" placeholder="Traffic Time" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="text" name="traf_type" value="" placeholder="Traffic Type" class="form-control">
+              </div>
+              <div class="form-group">
+                <select name="len_id" class="form-control">
+                  <option>Please Select</option>
+                  <option value="">10</option>
+                  <option value="">20</option>
+                  <option value="">30</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <button type="submit" name="submit" class="btn btn-primary col-sm-12">SUBMIT</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="resources/js/jquery.min.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>
+  </body>
+</html>
