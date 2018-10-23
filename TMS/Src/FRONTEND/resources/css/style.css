@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.b {
+  height: 40%;
+  width: 100%;
+  background-image: url(../img/b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.b2 {
+  height: 100%;
+  width: 100%;
+  background-image: url("../img/b2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#login-wrapper {
+  background: rgba(33, 86, 111, .7);
+  padding: 60px;
+}
+
+#login-wrapper > a {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+#login-wrapper >  h3 {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 20px;
+}
+
+#login-wrapper > div > div > form > .form-group {
+  margin: 20px;
+}
+
+#login-wrapper > div > div > form > .form-group > .form-control{
+  border-radius: 0;
+}
+
+.navbar-default {
+  background-color: #3f2421;
+  border-color: #3f2421;
+}
+.navbar {
+   border-radius: 0px; 
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>
+ .active>a:hover {
+    color: #fff;
+    background-color: green;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: green;
+}
