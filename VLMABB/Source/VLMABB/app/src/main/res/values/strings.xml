@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VLMABB</string>
+    <string name="bt1">Driver</string>
+    <string name="bt2">Customer</string>
+</resources>
