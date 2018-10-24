@@ -1,0 +1,187 @@
+﻿h1
+{
+	width: 50%;
+	margin: 50px auto 0px;
+	color: black;
+	text-align: center;
+	font-style: italic;
+	border-bottom: none;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+}
+.hbody {
+  margin: 0;
+ background: url("h.jpg")no-repeat center center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  background-color: transparent;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+	margin: 0;
+	background-color: rgba(0,0,0,.2);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: rgb(0,0,0);   
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: white;
+}
+
+
+
+/*style for registration form */
+.rbody{
+  background: url("register.jpg")no-repeat center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  background-color: transparent;
+  /*background-repeat: no-repeat;*/
+ }
+#register{
+       width: 300px;
+  height: 470px;
+   margin-top: 100px;
+
+}
+ 
+ .aa{
+  width: 300px;
+  height: 400px;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-left: 50px;
+  -webkit-border-color: 15px;
+  -moz-border-color: 15px;
+  -ms-border-color: 15px;
+  -o-border-color: 15px;
+  border-color: 15px;
+  color:white;
+  font-weight: bolder;
+  -webkit-box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+  box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+  font-size: 18px;
+ }
+ .aa input[type="text"]{
+  width: 200px;
+  height: 35px;
+  border:0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 5px;
+ }
+ .aa input[type="password"]{
+  width: 200px;
+  height: 35px;
+  border:0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding-left: 5px;
+ }
+ .aa input[type="submit"]{
+  width: 200px;
+  height: 35px;
+  border:0px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background-color: skyblue;
+  font-weight: bolder;
+ }
+
+ /*stylesheet for login form*/
+ .lbody{
+  background: url("login.jpg")no-repeat center fixed;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100% 100%;
+  background-color: transparent;
+  /*background-repeat: no-repeat;*/
+ }
+ #login{
+   width: 300px;
+  height: 270px;
+   margin-top: 100px;
+ }
+
+ #ca{
+  background-color: rgba(0,0,0,0.3);
+  margin-top: 0px; 
+ }
+
+.card-img-top {
+    width: 100%;
+    height: 18vw;
+    object-fit: cover;
+}
+
+.ff input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    box-sizing: border-box;
+
+}
+
+.ff button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.ff button:hover {
+    background: #0b7dda;
+}
+
+.ff::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.bb {
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
