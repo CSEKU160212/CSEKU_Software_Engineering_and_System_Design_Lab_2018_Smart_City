@@ -1,0 +1,16 @@
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\bin\Debug\Tax_SE_1.exe.config
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\bin\Debug\Tax_SE_1.exe
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\bin\Debug\Tax_SE_1.pdb
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\bin\Debug\MetroFramework.Design.dll
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\bin\Debug\MetroFramework.dll
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\bin\Debug\MetroFramework.Fonts.dll
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.csprojResolveAssemblyReference.cache
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.Login.resources
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.Properties.Resources.resources
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.csproj.GenerateResource.Cache
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.exe
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.pdb
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.TaxAdmin.resources
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.Client.resources
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.LicenseAdmin.resources
+D:\#2018\ASP.NET\Tax_SE_1\Tax_SE_1\obj\Debug\Tax_SE_1.Bill.resources
