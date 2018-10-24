@@ -1,0 +1,59 @@
+class landlord
+
+boolean AddLandlord(landlord)
+boolean UpdateLandlord(landlord)
+boolean DeleteLandlord(landlord)
+landlord ShowLandlord(int Id)
+
+
+class house_info
+
+boolean AddHouse(house_info)
+boolean UpdateHouse(house_info)
+boolean DeleteHouse(house_info)
+house_info ShowHouse(int Id)
+List<house_info> SearchHousebyArea(varchar address)
+boolean PostRating(int rating)
+
+
+class advertise
+
+boolean PostAdvertise(advertise)
+boolean UpdateAdvertise(advertise)
+boolean DeleteAdvertise(advertise)
+advertise ShowAdvertise(int Id)
+List<advertise> SearcAdvertise(varchar address,int rent)
+
+
+class renter
+
+boolean AddRenter(renter)
+boolean UpdateRenter(renter)
+boolean DeleteRenter(renter)
+renter ShowRenter(int Id)
+List<renter> SearchRenter(varchar name)
+
+
+class renter_info
+
+boolean PostRating(int rating)
+boolean UpdateRenterInfo(renter_info)
+boolean DeleteRenterInfo(renter_info)
+
+
+class complain
+
+boolean AddComplain(complain)
+boolean UpdateComplain(complain)
+boolean DeleteComplain(complain)
+complain ShowComplain(int Id)
+List<complain> SearchComplain(varchar house_name,varchar house_no)
+
+
+class admin
+
+
+boolean AddAdmin(admin)
+boolean UpdateAdmin(admin)
+boolean DeleteAdmin(admin)
+admin ShowAdmin(varchar name)
