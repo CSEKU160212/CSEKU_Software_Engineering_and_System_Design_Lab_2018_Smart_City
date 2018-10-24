@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{345A4A0C-933C-48CA-A710-27A15EC4643F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LMS_MetroUI_Local_DB</RootNamespace>
+    <AssemblyName>LMS_MetroUI_Local_DB</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplyForLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplyForLeave.Designer.cs">
+      <DependentUpon>ApplyForLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ApplyForTC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplyForTC.Designer.cs">
+      <DependentUpon>ApplyForTC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ATT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ATT.Designer.cs">
+      <DependentUpon>ATT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CallAMeeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CallAMeeting.Designer.cs">
+      <DependentUpon>CallAMeeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changeSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeSchedule.Designer.cs">
+      <DependentUpon>changeSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="info.Designer.cs">
+      <DependentUpon>info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LeaveApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LeaveApplication.Designer.cs">
+      <DependentUpon>LeaveApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGOUT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGOUT.Designer.cs">
+      <DependentUpon>LOGOUT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logout_parent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logout_parent.Designer.cs">
+      <DependentUpon>logout_parent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="logout_teacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logout_teacher.Designer.cs">
+      <DependentUpon>logout_teacher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Message.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Message.Designer.cs">
+      <DependentUpon>Message.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewStudentADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewStudentADMIN.Designer.cs">
+      <DependentUpon>NewStudentADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewTeacherADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTeacherADMIN.Designer.cs">
+      <DependentUpon>NewTeacherADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PASSWORDCHANGE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PASSWORDCHANGE.Designer.cs">
+      <DependentUpon>PASSWORDCHANGE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="result.Designer.cs">
+      <DependentUpon>result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="schedule.Designer.cs">
+      <DependentUpon>schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TCApplication.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TCApplication.Designer.cs">
+      <DependentUpon>TCApplication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherAdd.Designer.cs">
+      <DependentUpon>TeacherAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParentLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParentLogin.Designer.cs">
+      <DependentUpon>ParentLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentAdd.Designer.cs">
+      <DependentUpon>StudentAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherLogin.Designer.cs">
+      <DependentUpon>TeacherLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherMDI.Designer.cs">
+      <DependentUpon>TeacherMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParentMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParentMDI.Designer.cs">
+      <DependentUpon>ParentMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMDI.Designer.cs">
+      <DependentUpon>AdminMDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="USERinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USERinfo.Designer.cs">
+      <DependentUpon>USERinfo.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ApplyForLeave.resx">
+      <DependentUpon>ApplyForLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ApplyForTC.resx">
+      <DependentUpon>ApplyForTC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ATT.resx">
+      <DependentUpon>ATT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CallAMeeting.resx">
+      <DependentUpon>CallAMeeting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changeSchedule.resx">
+      <DependentUpon>changeSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="info.resx">
+      <DependentUpon>info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LeaveApplication.resx">
+      <DependentUpon>LeaveApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGOUT.resx">
+      <DependentUpon>LOGOUT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logout_parent.resx">
+      <DependentUpon>logout_parent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logout_teacher.resx">
+      <DependentUpon>logout_teacher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Message.resx">
+      <DependentUpon>Message.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewStudentADMIN.resx">
+      <DependentUpon>NewStudentADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTeacherADMIN.resx">
+      <DependentUpon>NewTeacherADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParentLogin.resx">
+      <DependentUpon>ParentLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PASSWORDCHANGE.resx">
+      <DependentUpon>PASSWORDCHANGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="result.resx">
+      <DependentUpon>result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="schedule.resx">
+      <DependentUpon>schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentAdd.resx">
+      <DependentUpon>StudentAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TCApplication.resx">
+      <DependentUpon>TCApplication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherAdd.resx">
+      <DependentUpon>TeacherAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherLogin.resx">
+      <DependentUpon>TeacherLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherMDI.resx">
+      <DependentUpon>TeacherMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParentMDI.resx">
+      <DependentUpon>ParentMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMDI.resx">
+      <DependentUpon>AdminMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="USERinfo.resx">
+      <DependentUpon>USERinfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

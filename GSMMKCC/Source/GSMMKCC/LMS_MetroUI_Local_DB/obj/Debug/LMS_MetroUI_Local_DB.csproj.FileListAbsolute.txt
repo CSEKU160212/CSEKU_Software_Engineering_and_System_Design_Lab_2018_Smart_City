@@ -1,0 +1,78 @@
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe.config
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.pdb
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Design.dll
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.dll
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csprojResolveAssemblyReference.cache
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Form1.resources
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Properties.Resources.resources
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csproj.GenerateResource.Cache
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.exe
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.pdb
+C:\Users\Sumit\Desktop\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.MDI.resources
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe.config
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.exe
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.pdb
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.pdb
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Design.dll
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.dll
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csprojResolveAssemblyReference.cache
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Form1.resources
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.MDI.resources
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Properties.Resources.resources
+C:\Users\Sumit\Desktop\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csproj.GenerateResource.Cache
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe.config
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.exe
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.pdb
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.pdb
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Design.dll
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.dll
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Fonts.dll
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csprojResolveAssemblyReference.cache
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.MDI.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Properties.Resources.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csproj.GenerateResource.Cache
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.login.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\LMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Form1.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe.config
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.exe
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.pdb
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csprojResolveAssemblyReference.cache
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Properties.Resources.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.csproj.GenerateResource.Cache
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.exe
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\LMS_MetroUI_Local_DB.pdb
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Design.dll
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.dll
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\bin\Debug\MetroFramework.Fonts.dll
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.MainPage.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.AdminLogin.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.StudentAdd.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.ParentLogin.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.TeacherLogin.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.TeacherMDI.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.ParentMDI.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.AdminMDI.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.CallAMeeting.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.TeacherAdd.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.Message.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.ApplyForLeave.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.ApplyForTC.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.info.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.schedule.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.result.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.LeaveApplication.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.TCApplication.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.changeSchedule.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.NewStudentADMIN.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.NewTeacherADMIN.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.ATT.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.LOGOUT.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.USERinfo.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.PASSWORDCHANGE.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.logout_parent.resources
+E:\Dell Volume E\Study\CSE KU\C# Vacation Projects\SMS_MetroUI_Local_DB\LMS_MetroUI_Local_DB\obj\Debug\LMS_MetroUI_Local_DB.logout_teacher.resources
