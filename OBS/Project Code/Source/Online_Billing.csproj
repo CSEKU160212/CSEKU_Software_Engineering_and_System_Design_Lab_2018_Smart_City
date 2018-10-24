@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F6173B9-53F0-4730-957B-693DF0CB9B2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Online_Billing</RootNamespace>
+    <AssemblyName>Online_Billing</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2015.2.623.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmBillpay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBillpay.Designer.cs">
+      <DependentUpon>FrmBillpay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMobilePay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMobilePay.Designer.cs">
+      <DependentUpon>FrmMobilePay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProviderElectricity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProviderElectricity.Designer.cs">
+      <DependentUpon>FrmProviderElectricity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProviderGas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProviderGas.Designer.cs">
+      <DependentUpon>FrmProviderGas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProviderType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProviderType.Designer.cs">
+      <DependentUpon>FrmProviderType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProviderWater.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProviderWater.Designer.cs">
+      <DependentUpon>FrmProviderWater.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserPaidBillList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserPaidBillList.Designer.cs">
+      <DependentUpon>FrmUserPaidBillList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUserType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUserType.Designer.cs">
+      <DependentUpon>FrmUserType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisaBillPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisaBillPay.Designer.cs">
+      <DependentUpon>FrmVisaBillPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegister.Designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FrmBillpay.resx">
+      <DependentUpon>FrmBillpay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMobilePay.resx">
+      <DependentUpon>FrmMobilePay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProviderElectricity.resx">
+      <DependentUpon>FrmProviderElectricity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProviderGas.resx">
+      <DependentUpon>FrmProviderGas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProviderType.resx">
+      <DependentUpon>FrmProviderType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProviderWater.resx">
+      <DependentUpon>FrmProviderWater.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserPaidBillList.resx">
+      <DependentUpon>FrmUserPaidBillList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUserType.resx">
+      <DependentUpon>FrmUserType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisaBillPay.resx">
+      <DependentUpon>FrmVisaBillPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reply-all-button.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
