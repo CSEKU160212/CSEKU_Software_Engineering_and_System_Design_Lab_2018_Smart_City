@@ -19,7 +19,6 @@ USE `SMTM` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `SMTM`.`Administrators` (
   `ID` INT NOT NULL AUTO_INCREMENT,
-  `Name` VARCHAR(75) NOT NULL,
   `User_Name` VARCHAR(50) NOT NULL,
   `Password` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`ID`))
@@ -47,7 +46,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `SMTM`.`Theaters` (
   `ID` INT NOT NULL AUTO_INCREMENT,
   `TheaterName` VARCHAR(75) NOT NULL,
-  `Contact` VARCHAR(50) NOT NULL,
+  `Contact` VARCHAR(100) NOT NULL,
   `Location` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`ID`))
 ENGINE = InnoDB;
@@ -59,9 +58,8 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `SMTM`.`Movies` (
   `ID` INT NOT NULL AUTO_INCREMENT,
   `MovieName` VARCHAR(75) NOT NULL,
-  `Producer` VARCHAR(50) NOT NULL,
-  `Artist` VARCHAR(50) NOT NULL,
-  `ReleaseDate` DATE NOT NULL,
+  `Date` DATE NOT NULL,
+  `Description` VARCHAR(200) NOT NULL,
   `Theaters_ID` INT NOT NULL,
   PRIMARY KEY (`ID`),
   INDEX `fk_MovieDatabase_Theaters1_idx` (`Theaters_ID` ASC),
@@ -78,37 +76,27 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `SMTM`.`Reservations` (
   `ID` INT NOT NULL AUTO_INCREMENT,
-  `Contact` VARCHAR(50) NOT NULL,
   `Date` DATE NOT NULL,
+  `Description` VARCHAR(200) NOT NULL,
   `Users_ID` INT NOT NULL,
-  `MovieDatabase_ID` INT NOT NULL,
+  `Theaters_ID` INT NOT NULL,
+  `Movies_ID` INT NOT NULL,
   PRIMARY KEY (`ID`),
   INDEX `fk_Reservations_Users_idx` (`Users_ID` ASC),
-  INDEX `fk_Reservations_MovieDatabase1_idx` (`MovieDatabase_ID` ASC),
+  INDEX `fk_Reservations_Theaters1_idx` (`Theaters_ID` ASC),
+  INDEX `fk_Reservations_Movies1_idx` (`Movies_ID` ASC),
   CONSTRAINT `fk_Reservations_Users`
     FOREIGN KEY (`Users_ID`)
     REFERENCES `SMTM`.`Users` (`ID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
-  CONSTRAINT `fk_Reservations_MovieDatabase1`
-    FOREIGN KEY (`MovieDatabase_ID`)
-    REFERENCES `SMTM`.`Movies` (`ID`)
+  CONSTRAINT `fk_Reservations_Theaters1`
+    FOREIGN KEY (`Theaters_ID`)
+    REFERENCES `SMTM`.`Theaters` (`ID`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `SMTM`.`Schedules`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `SMTM`.`Schedules` (
-  `ID` INT NOT NULL AUTO_INCREMENT,
-  `Time` TIME NOT NULL,
-  `MovieDatabase_ID` INT NOT NULL,
-  PRIMARY KEY (`ID`),
-  INDEX `fk_Schedules_MovieDatabase1_idx` (`MovieDatabase_ID` ASC),
-  CONSTRAINT `fk_Schedules_MovieDatabase1`
-    FOREIGN KEY (`MovieDatabase_ID`)
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_Reservations_Movies1`
+    FOREIGN KEY (`Movies_ID`)
     REFERENCES `SMTM`.`Movies` (`ID`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
