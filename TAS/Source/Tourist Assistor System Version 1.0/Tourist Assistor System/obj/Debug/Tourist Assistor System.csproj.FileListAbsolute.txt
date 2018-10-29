@@ -1,0 +1,23 @@
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\bin\Debug\Tourist Assistor System.exe.config
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\bin\Debug\Tourist Assistor System.exe
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\bin\Debug\Tourist Assistor System.pdb
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist Assistor System.csprojResolveAssemblyReference.cache
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.Login.resources
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.Properties.Resources.resources
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.Tourist.resources
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist Assistor System.csproj.GenerateResource.Cache
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist Assistor System.exe
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist Assistor System.pdb
+c:\users\anonymous\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.Registration.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.Spot.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.SearchResultRestaurentList.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.SearchResultsFoodList.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.SearchResultSpotList.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.SearchResultRestaurentListRadious.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.SearchResultFoodListRadious.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.SearchResultSpotListRadious.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.Restaurent.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.DetailsFood.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.DetailsRestaurent.resources
+C:\Users\ANONYMOUS\documents\visual studio 2015\Projects\Tourist Assistor System\Tourist Assistor System\obj\Debug\Tourist_Assistor_System.DetailsSpot.resources
